@@ -7,7 +7,10 @@
 
 </head>
 <body ng-app="HangmanApp" ng-controller="GameController">
-  {{demo}}
+Word to be guessed: {{display}}
+<br>
+<input type="text" name="guess" placeholder="Enter Guess letter" ng-model="input.letter">
+<button ng-click()="letterCheck()">TRY</button>
 
 
 </body>
