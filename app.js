@@ -26,13 +26,15 @@ var newGame = function(){
   {  temp+='*';
   }
   $scope.display=temp;
-  console.log(temp);
+}
+
+
+
+$scope.letterCheck = function() {
+  console.log("working");
 }
 
 newGame();
-
-
-
 
 
 
